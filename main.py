@@ -16,7 +16,6 @@ def find_procs_by_name(name):
 
 def main():
     print("Monitoring...")
-
     while True:
         try:
             for proc in find_procs_by_name(proc_name):
